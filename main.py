@@ -94,9 +94,9 @@ def main():
     #
     # print(test_ip("bin", "10.1.140.2"))
     #
-    # print(test_int("bin", 66656))
+    print(test_int("bin", 66656))
 
-    print(test_demo("lin", 101))
+    # print(test_demo("lin", 100))
 
 
 if __name__ == "__main__":
