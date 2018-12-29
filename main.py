@@ -49,33 +49,33 @@ def bin_search(arr, target_val):
     return False, end - start
 
 
-def lin_search(_list, target):
+def lin_search(array, target_val):
     start = _get_time()
-    for num, i in enumerate(_list):
+    for num, i in enumerate(array):
         print("searching index:", num, i)
-        if i == target:
+        if i == target_val:
             end = _get_time()
-            return True, end - start, len(_list)
+            return True, end - start, len(array)
     end = _get_time()
     return False, end - start
 
 
-def test_int(method, n):
+def test_int(method, _int):
     new_list = [i + 3 for i in range(10000000)]
 
     if method == "bin":
-        return bin_search(new_list, n)
+        return bin_search(new_list, _int)
     else:
-        return lin_search(new_list, n)
+        return lin_search(new_list, _int)
 
 
-def test_demo(method, n):
+def test_demo(method, num):
     test_list = [6, 7, 45, 100, 154, 200]
 
     if method == "bin":
-        return bin_search(test_list, n)
+        return bin_search(test_list, num)
     else:
-        return lin_search(test_list, n)
+        return lin_search(test_list, num)
 
 
 def test_ip(method, ip):
@@ -90,13 +90,15 @@ def test_ip(method, ip):
 
 
 def main():
-    # print(test_ip("lin", "10.1.140.2"))
+    # TODO: Uncomment the print statements below to execute and print the function return values
+    print(test_ip("lin", "10.1.140.2")) # Test the Linear IP search
+    # print(test_ip("bin", "10.1.140.2")) # Test the Binary IP search
     #
-    # print(test_ip("bin", "10.1.140.2"))
-    #
-    print(test_int("bin", 66656))
+    # print(test_int("lin", 66656)) # Test the Linear Integer search
+    # print(test_int("bin", 66656)) # Test the Binary Integer search
 
-    # print(test_demo("lin", 100))
+    # print(test_demo("lin", 100)) # Test the demo Linear search illustrated in the README
+    # print(test_demo("bin", 100)) # Test the demo Binary search illustrated in the README
 
 
 if __name__ == "__main__":

@@ -18,4 +18,10 @@ with Python.
     * U  = mid-point - 1
 * Repeat from step C until mid-point value is matched to the target made
 
+
+## Example
+
+In the example below I have a list with 6 elements. In this case we would like to determine if the number 100 is present in the list. We use the Binary search method 
+to find the index position of the number 100. 
+
 ![image](https://github.com/byt3-m3/python_bin_search/blob/master/img/Binary%20Searches-Page-1.jpg)
