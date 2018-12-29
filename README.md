@@ -18,6 +18,4 @@ with Python.
     * U  = mid-point - 1
 * Repeat from step C until mid-point value is matched to the target made
 
-
-
-![image](https://drive.google.com/file/d/11ErfclvTEMwuHrGY7xNvTX0Uve2I4xLO/view?usp=sharing )
+![image](https://github.com/byt3-m3/python_bin_search/blob/master/img/Binary%20Searches-Page-1.jpg)
