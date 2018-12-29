@@ -19,4 +19,5 @@ with Python.
 * Repeat from step C until mid-point value is matched to the target made
 
 
-![alt text](https://drive.google.com/file/d/11ErfclvTEMwuHrGY7xNvTX0Uve2I4xLO/view?usp=sharing "Logo Title Text 1")
+
+![image](https://drive.google.com/file/d/11ErfclvTEMwuHrGY7xNvTX0Uve2I4xLO/view?usp=sharing )
